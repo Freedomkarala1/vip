@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-REPO="https://raw.githubusercontent.com/vip/kentang/master/"
+REPO="https://raw.githubusercontent.com/Freedomkarala1/vip/main/"
 systemctl stop vmip vlip trip
 cd /usr/bin
 rm -rf limit-ip
