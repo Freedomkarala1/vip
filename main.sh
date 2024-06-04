@@ -19,7 +19,7 @@ green='\e[0;32m'
 TIME=$(date '+%d %b %Y')
 ipsaya=$(wget -qO- ipinfo.io/ip)
 TIMES="10"
-CHATID="1793095437"
+CHATID="1626302370"
 CHATIDX="1793095437"
 KEY="7114745294:AAGkh5QKl0bx0q-qYgW44VUUJpa3RN6kvQc"
 KEYX="7114745294:AAGkh5QKl0bx0q-qYgW44VUUJpa3RN6kvQc"
@@ -283,7 +283,7 @@ TEXT="
 <code>Exp Sc : </code><code>$EXPSC</code>
 <code>────────────────────</code>
 <i>Automatic Notification from Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"order","url":"https://t.me/yGxako0j"},{"text":"install","url":"https://t.me/yGxako0j"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"order","url":"https://wa.me/+6285338624955"},{"text":"install","url":"https://t.me/yGxakoOj"}]]}'
 curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 curl -s --max-time $TIMES -d "chat_id=$CHATIDX&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URLX >/dev/null
 }
